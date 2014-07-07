@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<JCSDataFile xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" >
+<JCSGMLInputTemplate>
+<CollectionElement>featureCollection</CollectionElement> 
+<FeatureElement>feature</FeatureElement>
+<GeometryElement>geometry</GeometryElement>
+<ColumnDefinitions>
+     <column>
+          <name>NUM</name>
+          <type>STRING</type>
+          <valueElement elementName="property" attributeName="name" attributeValue="NUM"/>
+          <valueLocation position="body"/>
+     </column>
+</ColumnDefinitions>
+</JCSGMLInputTemplate>
+
+<featureCollection>
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>477.0,-405.0 
+                    477.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">477.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>478.0,-405.0 
+                    478.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">478.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>479.0,-405.0 
+                    479.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">479.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>480.0,-405.0 
+                    480.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">480.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>481.0,-405.0 
+                    481.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">481.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>482.0,-405.0 
+                    482.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">482.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>483.0,-405.0 
+                    483.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">483.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>484.0,-405.0 
+                    484.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">484.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>485.0,-405.0 
+                    485.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">485.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>486.0,-405.0 
+                    486.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">486.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>487.0,-405.0 
+                    487.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">487.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>488.0,-405.0 
+                    488.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">488.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>489.0,-405.0 
+                    489.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">489.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>490.0,-405.0 
+                    490.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">490.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>491.0,-405.0 
+                    491.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">491.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>492.0,-405.0 
+                    492.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">492.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>493.0,-405.0 
+                    493.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">493.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>477.0,-405.0 
+                    493.0,-405.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">-405.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>477.0,-406.0 
+                    493.0,-406.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">-406.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>477.0,-407.0 
+                    493.0,-407.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">-407.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>477.0,-408.0 
+                    493.0,-408.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">-408.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>477.0,-409.0 
+                    493.0,-409.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">-409.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>477.0,-410.0 
+                    493.0,-410.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">-410.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>477.0,-411.0 
+                    493.0,-411.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">-411.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>477.0,-412.0 
+                    493.0,-412.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">-412.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>477.0,-413.0 
+                    493.0,-413.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">-413.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>477.0,-414.0 
+                    493.0,-414.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">-414.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>477.0,-415.0 
+                    493.0,-415.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">-415.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>477.0,-416.0 
+                    493.0,-416.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">-416.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>477.0,-417.0 
+                    493.0,-417.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">-417.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>477.0,-418.0 
+                    493.0,-418.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">-418.0</property>
+     </feature>
+
+     <feature> 
+          <geometry>
+                <gml:LineString>
+                  <gml:coordinates>477.0,-419.0 
+                    493.0,-419.0 </gml:coordinates>
+                </gml:LineString>
+          </geometry>
+          <property name="NUM">-419.0</property>
+     </feature>
+
+     </featureCollection>
+</JCSDataFile>
