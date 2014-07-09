@@ -1,0 +1,232 @@
+#
+# dexter scenario settings for the simulation
+#
+
+## Scenario settings
+Scenario.name = dexter_scenario
+Scenario.simulateConnections = true
+Scenario.updateInterval = 0.1
+# 43200s == 12h
+Scenario.endTime = 28800
+
+
+## Interface-specific settings:
+# type : which interface class the interface belongs to
+# For different types, the sub-parameters are interface-specific
+# For SimpleBroadcastInterface, the parameters are:
+# transmitSpeed : transmit speed of the interface (bytes per second)
+# transmitRange : range of the interface (meters)
+
+# "Bluetooth" interface for all nodes
+bluetooth.type = SimpleBroadcastInterface
+# Transmit speed of 2 Mbps = 250kBps
+bluetooth.transmitSpeed = 250k
+bluetooth.transmitRange = 10
+
+# Low speed, short range, interface for group 3
+infrared.type = SimpleBroadcastInterface
+infrared.transmitSpeed = 54k
+infrared.transmitRange = 1
+
+# High speed, long range, interface for group 4
+wireless.type = SimpleBroadcastInterface
+wireless.transmitSpeed = 10M
+wireless.transmitRange = 30
+
+# Define 4 different node groups
+Scenario.nrofHostGroups = 6
+
+## Group-specific settings:
+# groupID : Group's identifier. Used as the prefix of host names
+# nrofHosts: number of hosts in the group
+# movementModel: movement model of the hosts (valid class name from movement package)
+# waitTime: minimum and maximum wait times (seconds) after reaching destination
+# speed: minimum and maximum speeds (m/s) when moving on a path
+# bufferSize: size of the message buffer (bytes)
+# router: router used to route messages (valid class name from routing package)
+# activeTimes: Time intervals when the nodes in the group are active (start1, end1, start2, end2, ...)
+# msgTtl : TTL (minutes) of the messages created by this host group, default=infinite
+
+## Group and movement model specific settings
+# pois: Points Of Interest indexes and probabilities (poiIndex1, poiProb1, poiIndex2, poiProb2, ... )
+#       for ShortestPathMapBasedMovement
+# okMaps : which map nodes are OK for the group (map file indexes), default=all
+#          for all MapBasedMovent models
+# routeFile: route's file path - for MapRouteMovement
+# routeType: route's type - for MapRouteMovement
+
+
+# Common settings for all groups
+Group.movementModel = ShortestPathMapBasedMovement
+Group.router = EpidemicRouter
+Group.bufferSize = 1M
+Group.waitTime = 0, 120
+Group.nrofInterfaces = 1
+Group.interface1 = infrared
+# Walking speeds
+Group.speed = 0.1, 0.5
+# Message TTL of 42 minutes
+Group.msgTtl = 42
+
+Group.nrofHosts = 1
+
+# Dexter group 1
+Group1.groupID = f1
+Group1.bufferSize = 50M
+Group1.movementModel = ShortestPathMapBasedMovement
+Group1.routeFile = data/dexter/Geral.wkt
+Group1.okMaps = 1
+Group1.routeType = 1
+Group1.waitTime = 30, 1200
+Group1.speed = 0.1, 1
+Group1.nrofHosts = 3
+Group1.nrofInterfaces = 3
+Group1.interface1 = bluetooth
+Group1.interface2 = wireless
+Group1.interface3 = infrared
+
+
+# Roteador
+Group2.groupID = r1
+Group2.bufferSize = 10M
+Group2.movementModel = ShortestPathMapBasedMovement
+Group2.routeFile = data/dexter/Roteador.wkt
+Group2.okMaps = 2
+Group2.routeType = 2
+Group2.nrofHosts = 1
+Group2.waitTime = 28800
+Group2.nrofInterfaces = 1
+Group2.interface1 = wireless
+
+
+# Geladeira
+Group3.groupID = g1
+Group3.router = PassiveRouter
+Group3.bufferSize = 1M
+Group3.movementModel = ShortestPathMapBasedMovement
+Group3.routeFile = data/dexter/Geladeira.wkt
+Group3.okMaps = 3
+Group3.routeType = 2
+Group3.waitTime = 10, 60
+Group3.nrofHosts = 1
+Group3.waitTime = 28800
+Group3.nrofInterfaces = 1
+Group3.interface1 = infrared
+
+# Esteira
+Group4.groupID = e1
+Group4.router = PassiveRouter
+Group4.bufferSize = 1M
+Group4.movementModel = ShortestPathMapBasedMovement
+Group4.routeFile = data/dexter/Esteira.wkt
+Group4.okMaps = 4
+Group4.routeType = 2
+Group4.waitTime = 10, 60
+Group4.nrofHosts = 1
+Group4.waitTime = 28800
+Group4.nrofInterfaces = 1
+Group4.interface1 = infrared
+
+# Tv
+Group5.groupID = t1
+Group5.router = PassiveRouter
+Group5.bufferSize = 25M
+Group5.movementModel = ShortestPathMapBasedMovement
+Group5.routeFile = data/dexter/Tv.wkt
+Group5.okMaps = 5
+Group5.routeType = 2
+Group5.waitTime = 10, 60
+Group5.nrofHosts = 1
+Group5.waitTime = 28800
+Group5.nrofInterfaces = 2
+Group5.interface1 = infrared
+Group5.interface2 = wireless
+
+# Computador
+Group6.groupID = c1
+Group6.bufferSize = 500M
+Group6.movementModel = ShortestPathMapBasedMovement
+Group6.routeFile = data/dexter/Computador.wkt
+Group6.okMaps = 6
+Group6.routeType = 2
+Group6.waitTime = 10, 60
+Group6.nrofHosts = 1
+Group6.waitTime = 28800
+Group6.nrofInterfaces = 2
+Group6.interface1 = wireless
+Group6.interface2 = bluetooth
+
+
+## Message creation parameters
+# How many event generators
+Events.nrof = 1
+# Class of the first event generator
+Events1.class = MessageEventGenerator
+# (following settings are specific for the MessageEventGenerator class)
+# Creation interval in seconds (one new message every 25 to 35 seconds)
+Events1.interval = 25,35
+# Message sizes (500kB - 1MB)
+Events1.size = 500k,1M
+# range of message source/destination addresses
+Events1.hosts = 0,4
+# Message ID prefix
+Events1.prefix = M
+
+
+## Movement model settings
+# seed for movement models' pseudo random number generator (default = 0)
+MovementModel.rngSeed = 1
+# World's size for Movement Models without implicit size (width, height; meters)
+MovementModel.worldSize = 100, 100
+# How long time to move hosts in the world before real simulation
+MovementModel.warmup = 10
+
+## Map based movement -movement model specific settings
+MapBasedMovement.nrofMapFiles = 6
+
+MapBasedMovement.mapFile1 = data/dexter/Geral.wkt
+MapBasedMovement.mapFile2 = data/dexter/Roteador.wkt
+MapBasedMovement.mapFile3 = data/dexter/Geladeira.wkt
+MapBasedMovement.mapFile4 = data/dexter/Esteira.wkt
+MapBasedMovement.mapFile5 = data/dexter/Tv.wkt
+MapBasedMovement.mapFile6 = data/dexter/Computador.wkt
+
+## Reports - all report names have to be valid report classes
+
+# how many reports to load
+Report.nrofReports = 3
+# length of the warm up period (simulated seconds)
+Report.warmup = 0
+# default directory of reports (can be overridden per Report with output setting)
+Report.reportDir = reports/
+# Report classes to load
+Report.report1 = MessageStatsReport
+Report.report2 = EventLogReport
+Report.report3 = ConnectivityONEReport
+
+## Default settings for some routers settings
+ProphetRouter.secondsInTimeUnit = 30
+SprayAndWaitRouter.nrofCopies = 6
+SprayAndWaitRouter.binaryMode = true
+
+## Optimization settings -- these affect the speed of the simulation
+## see World class for details.
+Optimization.cellSizeMult = 5
+Optimization.randomizeUpdateOrder = true
+
+
+## GUI settings
+
+# GUI underlay image settings
+GUI.UnderlayImage.fileName = data/dexter/dexter.jpg
+# Image offset in pixels (x, y)
+#GUI.UnderlayImage.offset = 64, 20
+# Scaling factor for the image
+#GUI.UnderlayImage.scale = 4.75
+# Image rotation (radians)
+#GUI.UnderlayImage.rotate = -0.015
+
+# how many events to show in the log panel (default = 30)
+GUI.EventLogPanel.nrofEvents = 100
+# Regular Expression log filter (see Pattern-class from the Java API for RE-matching details)
+#GUI.EventLogPanel.REfilter = .*p[1-9]<->p[1-9]$
