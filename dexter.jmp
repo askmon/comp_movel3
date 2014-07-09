@@ -6,9 +6,9 @@
       <value class="java.lang.String">/mnt/arquivos/Computação/Computação Móvel/comp_movel3/dexter.jmp</value>
     </mapping>
   </properties>
-  <windowLocation X="51" Y="92" />
+  <windowLocation X="5" Y="5" />
   <windowSize width="680" height="380" />
-  <windowZoom left="474.6288533684598" right="495.7441981258723" bottom="-415.93476321427045" top="-405.06221288742734" />
+  <windowZoom left="466.08766186098177" right="506.1771766624025" bottom="-422.2005058033994" top="-402.3309648135344" />
   <maximized>true</maximized>
   <layers>
     <category name="�rea de trabalho">
@@ -83,7 +83,6 @@
           <style class="org.openjump.core.ccordsys.srid.SRIDStyle" enabled="true" srid="0" />
         </styles>
         <feature-schema-operation>NULL</feature-schema-operation>
-        <feature-schema-operation>NULL</feature-schema-operation>
       </layer>
       <layer class="com.vividsolutions.jump.workbench.model.Layer" name="Geladeira" visible="true" editable="false" selectable="true" read-only="false" drawnLast="false" synchronizedLineColor="true">
         <scaleDependentRendering enabled="false">
@@ -155,7 +154,6 @@
           </style>
           <style class="org.openjump.core.ccordsys.srid.SRIDStyle" enabled="true" srid="0" />
         </styles>
-        <feature-schema-operation>NULL</feature-schema-operation>
         <feature-schema-operation>NULL</feature-schema-operation>
       </layer>
       <layer class="com.vividsolutions.jump.workbench.model.Layer" name="Esteira" visible="true" editable="false" selectable="true" read-only="false" drawnLast="false" synchronizedLineColor="true">
@@ -229,7 +227,6 @@
           <style class="org.openjump.core.ccordsys.srid.SRIDStyle" enabled="true" srid="0" />
         </styles>
         <feature-schema-operation>NULL</feature-schema-operation>
-        <feature-schema-operation>NULL</feature-schema-operation>
       </layer>
       <layer class="com.vividsolutions.jump.workbench.model.Layer" name="Tv" visible="true" editable="false" selectable="true" read-only="false" drawnLast="false" synchronizedLineColor="true">
         <scaleDependentRendering enabled="false">
@@ -301,7 +298,6 @@
           </style>
           <style class="org.openjump.core.ccordsys.srid.SRIDStyle" enabled="true" srid="0" />
         </styles>
-        <feature-schema-operation>NULL</feature-schema-operation>
         <feature-schema-operation>NULL</feature-schema-operation>
       </layer>
       <layer class="com.vividsolutions.jump.workbench.model.Layer" name="Roteador" visible="true" editable="false" selectable="true" read-only="false" drawnLast="false" synchronizedLineColor="true">
@@ -375,7 +371,6 @@
           <style class="org.openjump.core.ccordsys.srid.SRIDStyle" enabled="true" srid="0" />
         </styles>
         <feature-schema-operation>NULL</feature-schema-operation>
-        <feature-schema-operation>NULL</feature-schema-operation>
       </layer>
       <layer class="com.vividsolutions.jump.workbench.model.Layer" name="Geral" visible="true" editable="true" selectable="true" read-only="false" drawnLast="false" synchronizedLineColor="true">
         <scaleDependentRendering enabled="false">
@@ -448,9 +443,8 @@
           <style class="org.openjump.core.ccordsys.srid.SRIDStyle" enabled="true" srid="0" />
         </styles>
         <feature-schema-operation>NULL</feature-schema-operation>
-        <feature-schema-operation>NULL</feature-schema-operation>
       </layer>
-      <layer class="com.vividsolutions.jump.workbench.imagery.ReferencedImagesLayer" name="Dexters-Apartment-Floor-Plans" visible="true" editable="true" selectable="true" read-only="false" drawnLast="false" synchronizedLineColor="true">
+      <layer class="com.vividsolutions.jump.workbench.imagery.ReferencedImagesLayer" name="Dexters-Apartment-Floor-Plans" visible="false" editable="true" selectable="true" read-only="false" drawnLast="false" synchronizedLineColor="true">
         <scaleDependentRendering enabled="false">
           <minScale null="true" />
           <maxScale null="true" />
