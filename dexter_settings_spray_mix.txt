@@ -104,6 +104,7 @@ Group2.interface1 = wireless
 # Geladeira
 Group3.groupID = g1
 Group3.bufferSize = 1M
+Group3.router = PassiveRouter
 Group3.movementModel = ShortestPathMapBasedMovement
 Group3.routeFile = data/dexter/Geladeira.wkt
 Group3.okMaps = 3
@@ -118,6 +119,7 @@ Group3.interface1 = infrared
 # Esteira
 Group4.groupID = e1
 Group4.bufferSize = 1M
+Group4.router = PassiveRouter
 Group4.movementModel = ShortestPathMapBasedMovement
 Group4.routeFile = data/dexter/Esteira.wkt
 Group4.okMaps = 4

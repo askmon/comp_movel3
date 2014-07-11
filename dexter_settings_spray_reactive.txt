@@ -90,6 +90,7 @@ Group1.interface3 = infrared
 # Roteador
 Group2.groupID = r1
 Group2.bufferSize = 10M
+Group2.router = PassiveRouter
 Group2.movementModel = ShortestPathMapBasedMovement
 Group2.routeFile = data/dexter/Roteador.wkt
 Group2.okMaps = 2
@@ -104,6 +105,7 @@ Group2.interface1 = wireless
 # Geladeira
 Group3.groupID = g1
 Group3.bufferSize = 1M
+Group3.router = PassiveRouter
 Group3.movementModel = ShortestPathMapBasedMovement
 Group3.routeFile = data/dexter/Geladeira.wkt
 Group3.okMaps = 3
@@ -118,6 +120,7 @@ Group3.interface1 = infrared
 # Esteira
 Group4.groupID = e1
 Group4.bufferSize = 1M
+Group4.router = PassiveRouter
 Group4.movementModel = ShortestPathMapBasedMovement
 Group4.routeFile = data/dexter/Esteira.wkt
 Group4.okMaps = 4
@@ -132,6 +135,7 @@ Group4.interface1 = infrared
 # Tv
 Group5.groupID = t1
 Group5.bufferSize = 25M
+Group5.router = PassiveRouter
 Group5.movementModel = ShortestPathMapBasedMovement
 Group5.routeFile = data/dexter/Tv.wkt
 Group5.okMaps = 5
@@ -147,6 +151,7 @@ Group5.interface2 = wireless
 # Computador
 Group6.groupID = c1
 Group6.bufferSize = 500M
+Group6.router = PassiveRouter
 Group6.movementModel = ShortestPathMapBasedMovement
 Group6.routeFile = data/dexter/Computador.wkt
 Group6.okMaps = 6
