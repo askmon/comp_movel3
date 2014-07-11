@@ -230,6 +230,8 @@ MapBasedMovement.mapFile3 = data/dexter/Geladeira.wkt
 MapBasedMovement.mapFile4 = data/dexter/Esteira.wkt
 MapBasedMovement.mapFile5 = data/dexter/Tv.wkt
 MapBasedMovement.mapFile6 = data/dexter/Computador.wkt
+MapBasedMovement.mapFile7 = data/dexter/Geral.wkt
+MapBasedMovement.mapFile8 = data/dexter/Geral.wkt
 
 ## Reports - all report names have to be valid report classes
 
