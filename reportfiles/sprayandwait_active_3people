@@ -1,0 +1,48 @@
+sim_time: 28800.1000
+created: 978
+started: 2242
+relayed: 2211
+aborted: 31
+dropped: 2401
+removed: 0
+delivered: 354
+delivery_prob: 0.3620
+response_prob: 0.0000
+overhead_ratio: 5.2458
+latency_avg: 996.9647
+latency_med: 15.0000
+hopcount_avg: 1.6215
+hopcount_med: 1
+buffertime_avg: 3851.6157
+buffertime_med: 3754.2000
+rtt_avg: NaN
+rtt_med: NaN
+
+Event reports parsing result:
+
+
+r11
+{'Delivered': 467, 'Created': 231, 'Dropped': 366, 'Aborted': 0, 'Removed': 385, 'Sent': 467}
+--------------------------------------------
+e13
+{'Delivered': 12, 'Created': 257, 'Dropped': 257, 'Aborted': 0, 'Removed': 8, 'Sent': 12}
+--------------------------------------------
+t14
+{'Delivered': 91, 'Created': 0, 'Dropped': 278, 'Aborted': 0, 'Removed': 91, 'Sent': 91}
+--------------------------------------------
+f26
+{'Delivered': 119, 'Created': 0, 'Dropped': 230, 'Aborted': 0, 'Removed': 85, 'Sent': 130}
+--------------------------------------------
+f37
+{'Delivered': 478, 'Created': 0, 'Dropped': 407, 'Aborted': 0, 'Removed': 358, 'Sent': 486}
+--------------------------------------------
+f10
+{'Delivered': 643, 'Created': 234, 'Dropped': 329, 'Aborted': 0, 'Removed': 531, 'Sent': 649}
+--------------------------------------------
+g12
+{'Delivered': 16, 'Created': 253, 'Dropped': 254, 'Aborted': 0, 'Removed': 15, 'Sent': 19}
+--------------------------------------------
+c15
+{'Delivered': 385, 'Created': 0, 'Dropped': 279, 'Aborted': 0, 'Removed': 384, 'Sent': 384}
+--------------------------------------------
+

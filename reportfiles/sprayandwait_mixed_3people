@@ -1,0 +1,47 @@
+Event reports parsing result:
+
+r11
+{'Delivered': 467, 'Created': 231, 'Dropped': 375, 'Aborted': 0, 'Removed': 387, 'Sent': 467}
+--------------------------------------------
+e13
+{'Delivered': 0, 'Created': 257, 'Dropped': 0, 'Aborted': 0, 'Removed': 0, 'Sent': 0}
+--------------------------------------------
+t14
+{'Delivered': 114, 'Created': 0, 'Dropped': 293, 'Aborted': 0, 'Removed': 114, 'Sent': 114}
+--------------------------------------------
+f26
+{'Delivered': 158, 'Created': 0, 'Dropped': 236, 'Aborted': 40, 'Removed': 88, 'Sent': 170}
+--------------------------------------------
+f37
+{'Delivered': 556, 'Created': 0, 'Dropped': 370, 'Aborted': 132, 'Removed': 341, 'Sent': 567}
+--------------------------------------------
+f10
+{'Delivered': 690, 'Created': 234, 'Dropped': 319, 'Aborted': 58, 'Removed': 525, 'Sent': 698}
+--------------------------------------------
+g12
+{'Delivered': 0, 'Created': 253, 'Dropped': 0, 'Aborted': 0, 'Removed': 0, 'Sent': 0}
+--------------------------------------------
+c15
+{'Delivered': 380, 'Created': 0, 'Dropped': 271, 'Aborted': 0, 'Removed': 377, 'Sent': 379}
+--------------------------------------------
+
+sim_time: 28800.1000
+created: 978
+started: 2399
+relayed: 2365
+aborted: 34
+dropped: 1865
+removed: 0
+delivered: 303
+delivery_prob: 0.3098
+response_prob: 0.0000
+overhead_ratio: 6.8053
+latency_avg: 1135.9574
+latency_med: 0.1000
+hopcount_avg: 1.5248
+hopcount_med: 1
+buffertime_avg: 4916.3228
+buffertime_med: 4486.4000
+rtt_avg: NaN
+rtt_med: NaN
+

@@ -1,0 +1,7 @@
+Estes arquivos mostram os dados que utilizamos para chegar em nossas conclusões. O nome deles mostra como o teste foi rodado, sendo algoritmo_comportamento_numerodepessoas.
+
+Algoritmo é o nome do algoritmo de roteamento.
+
+Comportamento diz se os dispositivos são passivos (com apenas as pessoas ativas), todos ativos ou uma mistura de dispositivos ativos e passivos
+
+Número de pessoas diz se o teste foi realizado com uma ou três pessoas no ambiente

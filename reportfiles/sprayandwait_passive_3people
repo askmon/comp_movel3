@@ -1,0 +1,35 @@
+Event reports parsing result:
+
+f10
+{'Delivered': 274403, 'Created': 233, 'Dropped': 167, 'Aborted': 274302, 'Removed': 0, 'Sent': 274412}
+--------------------------------------------
+e13
+{'Delivered': 0, 'Created': 257, 'Dropped': 0, 'Aborted': 0, 'Removed': 0, 'Sent': 0}
+--------------------------------------------
+g12
+{'Delivered': 0, 'Created': 253, 'Dropped': 0, 'Aborted': 0, 'Removed': 0, 'Sent': 0}
+--------------------------------------------
+r11
+{'Delivered': 0, 'Created': 231, 'Dropped': 0, 'Aborted': 0, 'Removed': 0, 'Sent': 0}
+--------------------------------------------
+
+sim_time: 28800.1000
+created: 978
+started: 274412
+relayed: 274403
+aborted: 8
+dropped: 167
+removed: 0
+delivered: 101
+delivery_prob: 0.1033
+response_prob: 0.0000
+overhead_ratio: 2715.8614
+latency_avg: 592.7485
+latency_med: 18.7000
+hopcount_avg: 1.0000
+hopcount_med: 1
+buffertime_avg: 8310.8204
+buffertime_med: 8267.0000
+rtt_avg: NaN
+rtt_med: NaN
+

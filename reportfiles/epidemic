@@ -1,0 +1,47 @@
+Meassages general reports:
+
+Message stats for scenario dexter_scenario
+sim_time: 28800.1000
+created: 978
+started: 573772
+relayed: 573758
+aborted: 11
+dropped: 573931
+removed: 0
+delivered: 477
+delivery_prob: 0.4877
+response_prob: 0.0000
+overhead_ratio: 1201.8470
+latency_avg: 729.5897
+latency_med: 5.9000
+hopcount_avg: 2.9099
+hopcount_med: 1
+buffertime_avg: 14.7235
+buffertime_med: 3.0000
+rtt_avg: NaN
+rtt_med: NaN
+
+Event reports parsing result:
+
+r13
+{'Delivered': 105, 'Created': 257, 'Dropped': 282206, 'Aborted': 0, 'Removed': 89, 'Sent': 105}
+--------------------------------------------
+e15
+{'Delivered': 0, 'Created': 0, 'Dropped': 22, 'Aborted': 0, 'Removed': 0, 'Sent': 1}
+--------------------------------------------
+t16
+{'Delivered': 203805, 'Created': 0, 'Dropped': 77528, 'Aborted': 0, 'Removed': 203794, 'Sent': 203806}
+--------------------------------------------
+f12
+{'Delivered': 47144, 'Created': 253, 'Dropped': 12560, 'Aborted': 0, 'Removed': 46952, 'Sent': 47147}
+--------------------------------------------
+f10
+{'Delivered': 37145, 'Created': 234, 'Dropped': 175271, 'Aborted': 0, 'Removed': 37085, 'Sent': 37146}
+--------------------------------------------
+f11
+{'Delivered': 38647, 'Created': 231, 'Dropped': 26163, 'Aborted': 0, 'Removed': 38487, 'Sent': 38652}
+--------------------------------------------
+c17
+{'Delivered': 246912, 'Created': 0, 'Dropped': 180, 'Aborted': 0, 'Removed': 246874, 'Sent': 246912}
+--------------------------------------------
+

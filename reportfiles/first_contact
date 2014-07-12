@@ -1,0 +1,37 @@
+Message stats for scenario dexter_scenario
+sim_time: 28800.1000
+created: 978
+started: 978
+relayed: 978
+aborted: 0
+dropped: 0
+removed: 978
+delivered: 978
+delivery_prob: 1.0000
+response_prob: 0.0000
+overhead_ratio: 0.0000
+latency_avg: 0.8377
+latency_med: 0.1000
+hopcount_avg: 1.0000
+hopcount_med: 1
+buffertime_avg: 0.8377
+buffertime_med: 0.1000
+rtt_avg: NaN
+rtt_med: NaN
+
+Event reports parsing result:
+
+
+f12
+{'Delivered': 254, 'Created': 253, 'Dropped': 0, 'Aborted': 0, 'Removed': 0, 'Sent': 254}
+--------------------------------------------
+f10
+{'Delivered': 234, 'Created': 233, 'Dropped': 0, 'Aborted': 0, 'Removed': 0, 'Sent': 234}
+--------------------------------------------
+f11
+{'Delivered': 232, 'Created': 231, 'Dropped': 0, 'Aborted': 0, 'Removed': 0, 'Sent': 232}
+--------------------------------------------
+r13
+{'Delivered': 258, 'Created': 257, 'Dropped': 0, 'Aborted': 0, 'Removed': 0, 'Sent': 258}
+--------------------------------------------
+
